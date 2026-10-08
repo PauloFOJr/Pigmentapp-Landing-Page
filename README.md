@@ -2,7 +2,7 @@
 
 Landing page oficial do **PigmentApp**, aplicativo Android para pintores criarem orçamentos profissionais em PDF direto do celular.
 
-🔗 **Site:** https://pigmentapp-prod.web.app
+🔗 **Site:** [PigmentApp](https://pigmentapp-prod.web.app)
 
 📱 **App:** [Google Play](https://play.google.com/store/apps/details?id=com.juniorpfo.pigmentapp)
 
