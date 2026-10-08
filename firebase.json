@@ -1,1 +1,1 @@
-{"hosting":{"public":".","ignore":["firebase.json","**/.*","**/node_modules/**","LEIA-ME.txt"]}}
+{"hosting":{"public":".","ignore":["firebase.json","**/.*","**/.git/**","**/.firebase/**","**/node_modules/**","*.zip"]}}
