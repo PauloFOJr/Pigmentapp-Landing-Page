@@ -13,7 +13,7 @@
     --bg: #08130d;
     --card: #10241a;
     --tx: #eef6f1;
-    --mut: #9db3a5;
+    --mut: #c6d6cc;
     --g: #4caf7d;
     --g2: #4caf7d;
     --bd: #1d3a2b
@@ -141,8 +141,8 @@ nav .w {
 }
 
 h1 {
-    font-size: clamp(34px, 5vw, 56px);
-    line-height: 1.1;
+    font-size: clamp(30px, 4.2vw, 46px);
+    line-height: 1.15;
     margin: 14px 0 18px;
     font-weight: 700
 }
@@ -269,17 +269,8 @@ section {
     align-items: center
 }
 
-.pdf {
-    width: 100%;
-    border-radius: 12px;
-    box-shadow: 0 20px 50px #0003;
-    border: 1px solid var(--bd);
-    transform: rotate(-2deg);
-    transition: .3s
-}
-
-.pdf:hover {
-    transform: none
+.two h2 {
+    margin-top: 8px
 }
 
 .two p {
@@ -387,8 +378,8 @@ footer .w {
     gap: 16px
 }
 
-footer nav {
-    all: unset
+footer b {
+    color: var(--tx)
 }
 
 .fl {
@@ -500,4 +491,40 @@ footer nav {
     stroke-width: 2;
     stroke-linecap: round;
     stroke-linejoin: round
+}
+
+/* botão principal do bloco de avaliação */
+.soc a.p {
+    border-color: var(--g);
+    color: var(--g)
+}
+
+/* depoimentos: só entram em uso quando o modelo comentado no index.html for ativado (1, 2 ou 3 cartões) */
+.deps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 340px));
+    justify-content: center;
+    gap: 18px
+}
+
+.dep blockquote {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 14px
+}
+
+.dep figcaption {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--mut)
+}
+
+/* imagem de comparação "caderninho x PDF" */
+.cmp {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+    border: 1px solid var(--bd);
+    box-shadow: 0 20px 50px #0003
 }
