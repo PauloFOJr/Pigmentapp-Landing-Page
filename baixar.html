@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Baixar PigmentaApp</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background: #115637;
+            color: #fff;
+            text-align: center;
+            padding: 60px 24px
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 24px;
+            padding: 16px 28px;
+            background: #fff;
+            color: #115637;
+            border-radius: 12px;
+            font-weight: bold;
+            text-decoration: none
+        }
+    </style>
+</head>
+
+<body>
+    <h1>PigmentaApp</h1>
+    <p>Abrindo a Play Store...</p>
+    <a id="btn" href="https://play.google.com/store/apps/details?id=com.juniorpfo.pigmentapp">Baixar na Play Store</a>
+    <script>
+        var pkg = 'com.juniorpfo.pigmentapp';
+        var web = 'https://play.google.com/store/apps/details?id=' + pkg;
+        var intent = 'intent://details?id=' + pkg +
+            '#Intent;scheme=market;package=com.android.vending;' +
+            'S.browser_fallback_url=' + encodeURIComponent(web) + ';end';
+        if (/android/i.test(navigator.userAgent)) {
+            document.getElementById('btn').href = intent;
+            window.location.href = intent;
+        }
+    </script>
+</body>
+
+</html>

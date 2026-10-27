@@ -1,0 +1,35 @@
+{
+    "name": "PigmentApp - Orçamentos de Pintura",
+    "short_name": "PigmentApp",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#F4FBF7",
+    "theme_color": "#115637",
+    "description": "Crie orçamentos e propostas em PDF para serviços de pintura.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

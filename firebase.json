@@ -1,1 +1,19 @@
-{"hosting":{"public":".","ignore":["firebase.json","**/.*","**/.git/**","**/.firebase/**","**/node_modules/**","*.zip","README.md","docs/**"]}}
+{
+    "hosting": {
+        "public": ".",
+        "cleanUrls": true,
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/.git/**",
+            "**/.firebase/**",
+            "**/node_modules/**",
+            "*.zip",
+            "README.md",
+            "docs/**"
+        ],
+        "rewrites": [
+            { "source": "/web/**", "destination": "/web/index.html" }
+        ]
+    }
+}
