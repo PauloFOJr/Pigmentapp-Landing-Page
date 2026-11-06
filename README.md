@@ -2,7 +2,7 @@
 
 Landing page oficial do **PigmentApp**, aplicativo Android para pintores criarem orçamentos profissionais em PDF direto do celular.
 
-🔗 **Site:** [PigmentApp](https://pigmentapp-prod.web.app)
+🔗 **Site:** [PigmentApp](https://pigmentapp.paulojr.dev.br/)
 
 📱 **App:** [Google Play](https://play.google.com/store/apps/details?id=com.juniorpfo.pigmentapp)
 
@@ -96,7 +96,7 @@ O envio usa o [FormSubmit](https://formsubmit.co). No primeiro envio, o serviço
 
 **Paulo Fernando de Oliveira Júnior**
 
-[GitHub](https://github.com/PauloFOJr) · [LinkedIn](https://www.linkedin.com/in/SEU_USUARIO) · [Instagram](https://www.instagram.com/SEU_USUARIO)
+[Portfólio](https://paulojr.dev.br/) · [GitHub](https://github.com/PauloFOJr) · [LinkedIn](www.linkedin.com/in/paulofojunior) · [Instagram](https://www.instagram.com/juniorpfo) 
 
 ---
 
